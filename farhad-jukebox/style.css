@@ -1,0 +1,101 @@
+body {
+    background: url("https://www.walldevil.com/wallpapers/a76/headphone-sound-music-pictures-wallpaper-minimalist-wallpapers.jpg") no-repeat center center fixed;
+    font-family: Georgia;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+#template {
+    background: url("http://glossi-media-us-west.s3-us-west-1.amazonaws.com/media/58b97d3dc8104f10bbf09329a8582d214KSLzx.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#part1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 55px;
+    background: #001f3f;
+}
+
+#userInput {
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#submit {
+    margin-left: 25px;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    margin-top: 4px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: #2ECC40;
+}
+
+#list {
+    color: wheat;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+#part2 {
+    background: #85144b;
+    height: 106px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+#play, #pause, #stop {
+    color: antiquewhite;
+    background-color: #000099;
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#play, #pause {
+    border-radius: 5px;
+}
+
+#prev, #next {
+    color:antiquewhite;
+    background-color: #006666;
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#prev {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#next {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#shuf {
+    color:antiquewhite;
+    background-color: #ff5050;
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
+}

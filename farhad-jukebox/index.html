@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Farhad's JukeBox</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div id="template">
+            <div id="part1">
+                <input type="text" placeholder="Enter a number or a track name" id="userInput">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+
+            <div id="list">
+                <ol>
+                    <li>Countdown</li>
+                    <li>Shutdown</li>
+                    <li>Landed</li>
+                    <li>Looking</li>
+                </ol>
+            </div>
+
+            <div id="part2">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="stop">Stop</button><br>
+                
+                <button id="prev">Previous</button>
+                <button id="next">Next</button>
+                <button id="shuf">Shuffle</button>
+            </div>
+
+            <p><em id="current"></em></p>
+            <p><em id="upnext"></em></p>
+        </div>
+        
+        <audio id="Countdown"><source src="mp3/apollo11_countdown.mp3"></audio>
+        <audio id="Shutdown"><source src="mp3/APUShutdown.mp3"></audio>
+        <audio id="Landed"><source src="mp3/eagle_has_landed.mp3"></audio>
+        <audio id="Looking"><source src="mp3/Lookin%20At%20It.mp3"></audio>
+        
+        <!--<button id="stop2">Stop</button>-->
+        
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
